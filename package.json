@@ -1,0 +1,31 @@
+{
+  "name": "pm2-api",
+  "version": "0.0.1",
+  "description": "pm2 api is no tip when i code in vscode, so i write this for tip and promisify callback",
+  "main": "dist/index.js",
+  "typing":"api/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shynome/pm2-api.git"
+  },
+  "keywords": [
+    "pm2",
+    "api"
+  ],
+  "author": "shynome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shynome/pm2-api/issues"
+  },
+  "homepage": "https://github.com/shynome/pm2-api#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "pm2": "^2.6.1"
+  },
+  "dependencies": {
+    "pify": "^3.0.0"
+  }
+}
