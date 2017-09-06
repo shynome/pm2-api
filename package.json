@@ -8,6 +8,7 @@
     "test": "mocha test",
     "pretest": "npm run build",
     "build": "tsc",
+    "prebuild": "rm -r dist",
     "preversion": "npm test"
   },
   "repository": {
