@@ -1,11 +1,14 @@
 {
   "name": "pm2-api",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "pm2 api is no tip when i code in vscode, so i write this for tip and promisify callback",
   "main": "dist/index.js",
-  "typing":"api/index.ts",
+  "typings": "api/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test",
+    "pretest":"npm run build",
+    "build": "tsc",
+    "preversion": "npm test"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,7 @@
   "homepage": "https://github.com/shynome/pm2-api#readme",
   "devDependencies": {
     "@types/node": "^8.0.26",
+    "mocha": "^3.5.0",
     "pm2": "^2.6.1"
   },
   "dependencies": {

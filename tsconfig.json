@@ -5,6 +5,7 @@
 		"noImplicitAny": false,
 		"sourceMap": true,
 		"outDir": "dist",
+		"allowSyntheticDefaultImports": true,
 		"lib": [
 			"es6",
 			"scripthost"
