@@ -1,12 +1,12 @@
 {
   "name": "pm2-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "pm2 api is no tip when i code in vscode, so i write this for tip and promisify callback",
   "main": "dist/index.js",
   "typings": "api/index.ts",
   "scripts": {
     "test": "mocha test",
-    "pretest":"npm run build",
+    "pretest": "npm run build",
     "build": "tsc",
     "preversion": "npm test"
   },
