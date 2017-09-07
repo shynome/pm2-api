@@ -4,6 +4,10 @@
   "description": "pm2 api is no tip when i code in vscode, so i write this for tip and promisify callback",
   "main": "dist/index.js",
   "typings": "api/index.ts",
+  "files": [
+    "dist",
+    "api"
+  ],
   "scripts": {
     "test": "mocha test",
     "pretest": "npm run build",
