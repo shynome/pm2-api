@@ -30,6 +30,9 @@
     "mocha": "^3.5.0",
     "pm2": "^2.6.1"
   },
+  "peerDependencies": {
+    "pm2": "^2.6.1"
+  },
   "dependencies": {
     "pify": "^3.0.0"
   }
