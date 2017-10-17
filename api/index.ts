@@ -46,6 +46,7 @@ export type monit = {
 }
 
 import { processDescription } from "./processDescription";
+export type app = processDescription
 
 export type pm2_env = any
 
