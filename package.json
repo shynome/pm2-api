@@ -1,6 +1,6 @@
 {
   "name": "pm2-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "pm2 api is no tip when i code in vscode, so i write this for tip and promisify callback",
   "main": "dist/index.js",
   "typings": "api/index.ts",
