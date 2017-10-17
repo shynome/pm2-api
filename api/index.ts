@@ -45,13 +45,7 @@ export type monit = {
   memory: number,
 }
 
-export type app = {
-  monit: monit,
-  name: string,
-  pid: number,
-  pm_id: number,
-  pm2_env: pm2_env,
-}
+import { processDescription } from "./processDescription";
 
 export type pm2_env = any
 
@@ -175,7 +169,7 @@ stop:(process_name:cwd)=>Promise<any>
 /**
  * Get list of all processes managed
  */
-list:(opts?:any)=>Promise<app[]>
+list:(opts?:any)=>Promise<processDescription[]>
 = pify(super.list)
 
 /**
